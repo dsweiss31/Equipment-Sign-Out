@@ -1,0 +1,63 @@
+ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 20, 2018, 8:35:16 AM
+    Author     : DSW029
+*/
+
+.root {
+     -fx-background-color: maroon;
+}
+  
+.button {
+    -fx-text-fill: yellow;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-background-color: linear-gradient(white, black);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(black, white);
+    -fx-cursor: hand;
+}
+
+#GUItitle{
+    -fx-fill: yellow;
+    -fx-font-size: 24px;
+}
+
+#hhs{
+    -fx-fill: gold;
+    -fx-font-size: 36px;
+}
+
+#in{
+    -fx-font-size: 24px;
+}
+
+#out{
+    -fx-font-size: 24px;
+}
+
+.label{
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: yellow;
+    -fx-font-size: 18px;
+}
+
+.TableView{
+    color: black;
+    -fx-text-fill: black;
+    -fx-background-color: black;
+}
+
+#th{
+    -fx-color: black;
+    -fx-text-fill: black;
+    -fx-background-color: black;
+}
